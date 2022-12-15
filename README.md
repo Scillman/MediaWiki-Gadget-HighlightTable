@@ -28,8 +28,8 @@ The contributors prior to being posted on GitHub:
 * highlightTable-core[ResourceLoader|type=general|dependencies=oojs-ui-core,oojs-ui.styles.icons-interactions|targets=desktop,mobile|hidden]|highlightTable-core.js
 ```
 4. Copy the contents of the ``src/Gadget-highlightTable.js`` to ``MediaWiki:Gadget-highlightTable.js``
-5. Check the ``HighlightTable`` gadget is enabled in ``Special:Preferences#mw-prefsection-gadgets``
-   1. If the ``Gadgets`` tab is not visible it means it is not installed correctly.
+5. Check if the ``HighlightTable`` gadget is enabled in ``Special:Preferences#mw-prefsection-gadgets``
+   1. If the ``Gadgets`` tab or the ``LightTable`` gadget is not visible it means it is not installed correctly.
 
 # Usage
 Add the ``lighttable`` class to any table you wish to have highlighting enabled for. E.g.
