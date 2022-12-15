@@ -1,0 +1,8 @@
+/* for [[MediaWiki:Gadget-highlightTable.js]] */
+table.lighttable .highlight-over {
+    background-color: #a1ffa1;
+}
+
+table.lighttable .highlight-on {
+    background-color: #a1ffa1;
+}

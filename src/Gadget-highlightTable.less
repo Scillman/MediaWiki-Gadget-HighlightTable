@@ -1,0 +1,30 @@
+/**
+ * This file contains the code as taken from https://runescape.wiki/ and
+ * provides an example of how to integrate the gadget LESS/CSS code.
+ */
+
+// for [[MediaWiki:Gadget-highlightTable.js]]
+table.lighttable {
+    .highlight-on {
+        background-color: @san-felix;
+        color: @frost;
+
+        a {
+            color: @caper;
+        }
+    }
+    .highlight-over {
+        background-color: @la-palma;
+        color: @frost;
+
+        a {
+            color: @caper;
+        }
+    }
+
+    // wikitables within lighttables should not automatically inherit green links if not highlighted itself;
+    // applies to nested tables.
+    table.wikitable tr:not(.highlight-over):not(.highlight-on) a {
+        color: @dark-links;
+    }
+}
